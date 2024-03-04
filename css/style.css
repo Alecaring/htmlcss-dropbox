@@ -1,7 +1,10 @@
 /* ............................................. */
 /* GENERALI */
 /* .............................................. */
-/* VALORI ASSOLUTI */
+
+
+
+/* VALORI ASSOLUTI  blue red yellow orange*/
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +38,10 @@ ul {
     padding-top: 10vh;
     margin-top: -10vh;
 }
+/* /VALORI ASSOLUTI blue red yellow orange*/
+
+
+
 /* ................................................ */
 /* NAVBAR */
 /* ................................................ */
@@ -195,13 +202,11 @@ section>.flexbox-banner {
     margin-top: 5vh;
     padding-bottom: 1vh;
 }
-
 /* ----------------------------------------------- */
 /* HOVER - HERO */
 .flexbox-banner-left>span:first-of-type:hover {
     background-color: var(--blue_hover);
 }
-
 /* ----------------------------------------------- */
 /* .............................................. */
 /* MAIN SECTION  */
@@ -231,22 +236,6 @@ section>.flexbox-banner {
 }
 /* ----------------------------------------------- */
 /* CONTENITORI ABBONAMENTI */
-.list-contenitor {
-    display: flex;
-    gap: 5vw;
-    justify-content: space-between;
-}
-
-.list-contenitor-item {
-    width: calc(100% / 3);
-    border: 0.5px solid var(--black);
-}
-
-
-/* HOVER ORBRA LISTE */
-.list-contenitor-item:hover {
-    box-shadow: 0.5vh 0.5vw 1vh gray;
-}
 /* ---------------------------------------------------------- */
 /* COMMON ALLINEAMENTO AL CENTRO  */
 /* ----------------------------------------------------------- */
@@ -287,6 +276,21 @@ section>.flexbox-banner {
 .list-contenitor-item span
 { font-size: 1vw; }
 /* ------------------------------------------------------------ */
+.list-contenitor {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.list-contenitor-item {
+    width: calc(100% / 3);
+    border: 0.5px solid var(--black);
+}
+
+/* HOVER ORBRA LISTE */
+.list-contenitor-item:hover {
+    box-shadow: 0.5vh 0.5vw 1vh gray;
+}
 
 /* INSTESTAZIONE SUPERIORE DIV - ICONA E SPAN - DISTINZIONE ABBONAMENTI */
 .list-contenitor-item > span:first-of-type {
@@ -321,28 +325,9 @@ section>.flexbox-banner {
     text-decoration: underline;
     color: indigo;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ----------------------------------------------------- */
 /* CONTENITORE SOTTO LA LISTA : INNERENTE! */
+/* ----------------------------------------------------- */
 .contenitor-under-list {
     display: flex;
     flex-wrap: wrap;
@@ -392,8 +377,9 @@ section>.flexbox-banner {
     color: var(--white);
     background-color: var(--blue);
 }
-
+/* ----------------------------------------------------- */
 /* CONTENITORE DI COLLABORAZIONE  */
+/* ----------------------------------------------------- */
 .partership-container {
     display: flex;
     width: 100%;
@@ -430,8 +416,9 @@ section>.flexbox-banner {
     text-align: center;
     padding: 1vh;
 }
-
+/* ----------------------------------------------------- */
 /* FUNZIONALITA' DEL NOSTRO SERVIZIO */
+/* ----------------------------------------------------- */
 .contenitor-item {
     margin-top: 10vh;
     width: 100%;
@@ -463,8 +450,9 @@ section>.flexbox-banner {
 .item p{
     font-size: 1vw;
 }
-
+/* ----------------------------------------------------- */
 /* SULLA NOSTRA CARRIERA E CLIENTI */
+/* ----------------------------------------------------- */
 .spam-contenitor {
     margin-top: 14vh;
     width: 70%;
@@ -473,9 +461,9 @@ section>.flexbox-banner {
 .spam-contenitor h2 {
     padding-bottom: 5.5vh;
 }
-
+/* ----------------------------------------------------- */
 /* GRANDI BRAND DI COLLABORAZIONE */
-
+/* ----------------------------------------------------- */
 .bottom-section-icons {
     position: relative;
     width: 100%;
@@ -591,8 +579,9 @@ section>.flexbox-banner {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* ----------------------------------------------------- */
 /* INSCRIZIONE SOTTO PRRSENTAZIONE BRAND COLLABORATIVI */
+/* ----------------------------------------------------- */
 .contenitor-ads {
     width: 100%;
     background-color: var(--lightblue);
@@ -624,16 +613,9 @@ section>.flexbox-banner {
     padding: 1vh;
     background-color: var(--white);
 }
-
+/* ----------------------------------------------------- */
 /* FAQ */
-
-
-
-
-
-
-
-
+/* ----------------------------------------------------- */
 /* CONTENITORE FAQ */
 .faq {
     width: 80%;
@@ -691,16 +673,9 @@ section>.flexbox-banner {
 .faq-container li:hover p {
     display: block;
 }
-
-
-
-
-
-
-
-
-
+/* ----------------------------------------------------- */
 /* FOOTER */
+/* ----------------------------------------------------- */
 footer {
     background-color: var(--black);
 }
